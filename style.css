@@ -7,10 +7,11 @@ body::-webkit-scrollbar {
 }
 
 #btn {
-    cursor:pointer;
+    cursor: pointer;
     width: 250px;
     height: 100px;
-    border-color: gray;
+    border-style: solid;
+    border-color: rgb(86, 77, 13);
     border-width: 2px 2px 2px 2px;
     font-size: 45px;
     background-color: orange;
@@ -20,10 +21,9 @@ body::-webkit-scrollbar {
 }
 
 #btn:active {
-    border-color: gray;
-    border-width: 1px 5px 6px 5px;
-    border-color: #292a2a gray #292a2a gray;
-    font-size: 44px
+    transition: 0.1s;
+    font-size: 44px;
+    box-shadow: inset 0px -1px 3px 3px rgb(129, 105, 2);
 }
 
 .fgadf {

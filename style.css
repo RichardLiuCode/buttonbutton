@@ -19,6 +19,7 @@ body::-webkit-scrollbar {
     margin-top: 30px;
     color: white;
     overflow-x: hidden;
+    user-select: none;
 }
 
 #btn:active {
